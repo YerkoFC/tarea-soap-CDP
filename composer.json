@@ -1,0 +1,16 @@
+{
+    "name": "yerko/proyectosoap",
+    "description": "Proyecto soap para la asignatura CDP 2020",
+    "type": "project",
+    "require": {
+        "phpoffice/phpspreadsheet": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "YerkoFC",
+            "email": "yerko.fonceac@utem.cl"
+        }
+    ],
+    "minimum-stability": "dev"
+}
