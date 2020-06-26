@@ -2,8 +2,4 @@
 vendor/
 
 # Archivos para pruebas
-archivo.b64
-holamundo.b64
-holamundo.txt
-prueba.b64
-prueba.csv
+archivosPrueba/

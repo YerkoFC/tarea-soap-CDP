@@ -2,6 +2,9 @@
 
 /*  Libreria NuSoap */
 include_once 'lib/nusoap.php';
+/* Funciones que manejan la lógica del web service */
+include_once 'functions.php';
+
 /* Namespace */
 $nameSpace = "urn:webService";
 /* Soap server */
@@ -38,7 +41,7 @@ $service->schemaTargetNamespace = $nameSpace;
 // 	// $dataSplited = explode(' ', $data);
 // 	// for ($i=0; $i < $cant ; $i++) { 
 // 	// 	$result .=  $dataSplited[$i] . ' ';
-// 	// }
+// 	// }=
 // 	// return base64_decode($data);
 // 	return $data;
 
@@ -47,7 +50,7 @@ $service->schemaTargetNamespace = $nameSpace;
 
 
 $service->register('pruebaCsv',
-	array('nameFile' => 'xsd:string', 'mimeType' => 'xsd:string', 'file' => 'xsd:base64Binary'),
+	array('nameFile' => 'xsd:string', 'mimeType' > 'xsd:string', 'file' => 'xsd:base64Binary'),
 	array('paramOut' => 'xsd:base64Binary'),
 	$nameSpace);
 
